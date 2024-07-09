@@ -18,4 +18,4 @@ jobs:
           php-version: '8.2'
           tools: cs2pr, phpcs
       - name: Run phpcs
-        run: phpcs --report-full --standard=PSR2 .
+        run: phpcs --report-diff .
